@@ -69,16 +69,24 @@
                 text-align: center;
                 color: #fff;
             }
+            .noselect {
+                  -webkit-touch-callout: none; 
+                    -webkit-user-select: none; 
+                     -khtml-user-select: none; 
+                       -moz-user-select: none; 
+                        -ms-user-select: none; 
+                            user-select: none; 
+                }
         </style>
     </head>
-    <body>
+    <body class="noselect">
         <div class="logo">
             <img src="images/thelogo.png" width="100%"/>
         </div>
         <div class="bottom">
             <img src="images/theq.png" class="wicked"/>
-            <div class="shopnow">Shop Now</div>
-            <div class="overwhelming">Due to overwhelming orders, we are temporarily not accepting new orders, please come back for new updates. Thanks.</div>
+            <div class="shopnow noselect">Shop Now</div>
+            <div class="overwhelming noselect">Due to overwhelming orders, we are temporarily not accepting new orders, please come back for new updates. Thanks.</div>
         </div>
     </body>
 </html>
